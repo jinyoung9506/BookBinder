@@ -1,5 +1,4 @@
 # Built application files
-*.apk
 *.ap_
 *.aab
 
@@ -7,7 +6,6 @@
 *.dex
 
 # Java class files
-*.class
 
 # Generated files
 bin/
