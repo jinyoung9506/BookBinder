@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:context=".Fragment4">
+
+    <!-- TODO: Update blank fragment layout -->
+    <LinearLayout
+        android:id="@+id/LoginLayout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_marginHorizontal="20dp"
+        android:layout_gravity="center"
+        android:visibility="visible">
+
+        <EditText
+            android:id="@+id/LoginID"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:hint="@string/id"
+            android:autofillHints="ID"/>
+        <EditText
+            android:id="@+id/LoginPW"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:hint="@string/password"
+            android:autofillHints="PASSWORD"/>
+        <Button
+            android:id="@+id/LoginBT"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/sign_in"/>
+        <Button
+            android:id="@+id/SignupBT"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/sign_up"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/SyncLayout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_marginHorizontal="20dp"
+        android:layout_gravity="center"
+        android:visibility="gone">
+
+
+        <TextView
+            android:textSize="20sp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/user"
+            android:layout_gravity="start"/>
+        <TextView
+            android:id="@+id/UsernameText"
+            android:textSize="20sp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/plzsignin"/>
+
+        <ImageButton
+            android:id="@+id/UploadBT"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:src="@drawable/ic_file_upload_black_100dp"/>
+        <TextView
+            android:textSize="20sp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/upload_to_server"
+            android:textAlignment="center"
+            android:layout_marginBottom="40dp"/>
+
+        <ImageButton
+            android:id="@+id/DownloadBT"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:src="@drawable/ic_file_download_black_100dp"/>
+        <TextView
+            android:textSize="20sp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/download_to_device"
+            android:textAlignment="center"/>
+
+    </LinearLayout>
+    <com.google.android.material.floatingactionbutton.FloatingActionButton
+        android:id="@+id/AccountRefresh"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="bottom|end"
+        android:layout_margin="@dimen/fab_margin"
+        app:srcCompat="@drawable/ic_sync_white_24dp"
+        tools:ignore="VectorDrawableCompat" />
+</FrameLayout>

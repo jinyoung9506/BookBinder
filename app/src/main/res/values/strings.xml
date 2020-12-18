@@ -1,0 +1,35 @@
+<resources>
+    <string name="app_name">BookBinder</string>
+    <string name="tab_text_1">도서 목록</string>
+    <string name="tab_text_2">도서 정보</string>
+    <string name="tab_text_3">도서 입력</string>
+    <string name="tab_text_4">동기화</string>
+    <string name="timing"> 시기 미정 </string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="read">읽은 ISBN 목록</string>
+    <string name="scanner">Scanner</string>
+    <string name="Filter">필터</string>
+    <string name="naverSearchID">Xv_BqJXaO56uE8hQYPD2</string>
+    <string name="naverSearchSEC">ZaFd4ZxW_3</string>
+    <string name="author">저자</string>
+    <string name="link">도서 정보 링크</string>
+    <string name="title">제목</string>
+    <string name="memo">메모</string>
+    <string name="price">정가</string>
+    <string name="coverimage">CoverImage</string>
+    <string name="pubdate">발매일</string>
+    <string name="publisher">출판사</string>
+    <string name="updateafter">차후 업데이트 될 예정입니다.</string>
+    <string name="delete">Delete</string>
+    <string name="password">PASSWORD</string>
+    <string name="id">ID</string>
+    <string name="sign_in">Sign In</string>
+    <string name="sign_up">Sign Up</string>
+    <string name="user">사용자 :</string>
+    <string name="plzsignin">로그인 해 주세요</string>
+    <string name="upload_to_server">Upload to Server</string>
+    <string name="download_to_device">Download to Device</string>
+    <string name="URL">http://jinyoung95.gonetis.com/</string>
+</resources>
